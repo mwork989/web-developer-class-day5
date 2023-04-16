@@ -56,12 +56,15 @@ div.section2 {
 
 @font-face {
   font-family: myCustomFont1;
-  src: url("./assets/fonts/bobacups.otf");
+  src: url("./assets/fonts/highfighter.otf");
 }
 
+
+
 .font_header {
-  font-family: myCustomFont1;
+  font-family:myCustomFont1;
 }
+
 .div_class {
   width: 100px;
   height: 100px;
@@ -113,7 +116,7 @@ div.section2 {
 }
 #matrix_div {
   margin: 30px;
-  transform: matrix(1, 0, 0.5, 1, 150, 0);
+  transform: matrix(2, 0, 0.5, 1, 150, 0);
 }
 
 #deffect1 {
@@ -121,7 +124,7 @@ div.section2 {
   width:200px;
   padding:10px;
   background-color: aqua;
-  transform: perspective(800px) rotateY(-8deg);
+  transform: perspective(1500px) rotateY(-20deg);
   transition: transform 1s ease 0s;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
@@ -160,6 +163,6 @@ div.section2 {
   width:500px;
   padding:5px;
   margin:0px;
-  column-count: 3;
-  column-gap: 20px;
+  column-count: 2;
+  column-gap: 30px;
 }
