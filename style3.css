@@ -1,0 +1,165 @@
+.container1 {
+  border: 3px solid brown;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("./photo1.jpg");
+  color: white;
+}
+
+.container1:hover {
+  opacity: 0.5;
+}
+
+.container1 p {
+  width: 100%;
+  text-align: justify;
+}
+
+#para1 {
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+#para2 {
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+
+.title_text_shadow {
+  color: brown;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-shadow: 3px 3px 3px yellow;
+}
+
+.section_2dTransformation div {
+  width: 150px;
+  border: 1px solid #2815bc;
+}
+
+div.section1 {
+  word-wrap: normal;
+}
+
+div.section2 {
+  word-wrap: break-word;
+}
+
+@font-face {
+  font-family: myCustomFont1;
+  src: url("./assets/fonts/bobacups.otf");
+}
+
+.font_header {
+  font-family: myCustomFont1;
+}
+.div_class {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 221, 0);
+  border: 1px solid black;
+}
+
+#translate_div {
+  transform: translate(20px, 10px);
+}
+
+#rotate_div1 {
+  transform: rotate(30deg);
+}
+
+#rotate_div2 {
+  transform: rotate(60deg);
+  margin-bottom: 100px;
+}
+
+#scale_div_big_size {
+  margin-left: 100px;
+  transform: scale(2, 3);
+}
+
+#scale_div_small_size {
+  transform: scale(0.2, 0.3);
+}
+
+#scale_div_X_size {
+  transform: scaleX(0.5);
+  margin-left: 300px;
+}
+
+#scale_div_Y_size {
+  transform: scaleY(3);
+}
+
+#skew_div {
+  margin: 30px;
+  transform: skew(20deg, 10deg);
+}
+
+#skew_div_x {
+  transform: skewX(20deg);
+}
+#skew_div_y {
+  transform: skewY(40deg);
+}
+#matrix_div {
+  margin: 30px;
+  transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
+
+#deffect1 {
+  height:200px;
+  width:200px;
+  padding:10px;
+  background-color: aqua;
+  transform: perspective(800px) rotateY(-8deg);
+  transition: transform 1s ease 0s;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+}
+#deffect2{
+  height:200px;
+  width:200px;
+  padding:10px;
+  background-color: rgb(255, 115, 0);
+    transform:
+      scale(0.75)
+      rotateY(-30deg)
+      rotateX(45deg)
+      translateZ(4.5rem);
+    transform-origin: 50% 100%;
+    transform-style: preserve-3d;
+    box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.25);
+    transition: 0.6s ease transform;
+  
+   
+}
+.multiple_columns div{
+  font-size: large;
+  background-color: beige;
+  border: 1px solid brown;
+  font-weight: bold;
+  margin:0px;
+  padding:5px;
+  width:500px;
+}
+.newspaper{
+  background-color: beige;
+  border: 1px solid brown;
+  width:500px;
+  padding:5px;
+  margin:0px;
+  column-count: 3;
+  column-gap: 20px;
+}

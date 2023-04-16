@@ -1,0 +1,38 @@
+.container{
+    height: 50px;
+    width:150px;
+    border:3px solid rgb(10, 65, 38);
+    padding:10px;
+    margin:10px;
+    background-color: green;
+}
+
+/* #hide_container2{
+    visibility: hidden;
+} */
+
+/* #hide_container2{
+    display:none;
+}
+ */
+
+
+ body{
+    background-image: url("./photo1.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-color: beige;
+
+ }
+
+
+ /*     background-position
+ left top
+left center
+left bottom
+right top
+right center
+right bottom
+center top
+center center
+center bottom */

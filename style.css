@@ -1,0 +1,158 @@
+
+
+#section1{
+    height: 50px;
+    width:50px;
+    border:2px solid red;
+    padding:10px;
+    margin:10px;
+}
+
+#section2{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(0, 255, 38);
+    padding:10px;
+    margin:10px;
+    position :static;
+}
+
+#section3{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(25, 0, 255);
+    padding:10px;
+    margin:10px;
+}
+
+
+
+#section11{
+    height: 50px;
+    width:50px;
+    border:2px solid red;
+    padding:10px;
+    margin:10px;
+}
+
+#section22{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(0, 255, 38);
+    padding:10px;
+    margin:10px;
+    position :relative;
+    top:10px;
+    left:400px;
+}
+
+#section33{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(25, 0, 255);
+    padding:10px;
+    margin:10px;
+}
+
+#parent-section{
+    height: 50px;
+    width:500px;
+    border:2px solid rgb(49, 88, 54);
+    padding:10px;
+    margin:10px;
+}
+
+
+#section111{
+    height: 50px;
+    width:50px;
+    border:2px solid red;
+    padding:10px;
+    margin:10px;
+}
+
+#section222{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(42, 162, 104);
+    padding:10px;
+    margin:10px;
+    position :absolute;
+    top:40px;
+    background-color: green;
+    left:10px;
+
+}
+
+#section333{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(25, 0, 255);
+    padding:10px;
+    margin:10px;
+}
+
+
+#section1111{
+    height: 50px;
+    width:50px;
+    border:2px solid red;
+    padding:10px;
+    margin:10px;
+}
+
+#section2222{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(42, 162, 104);
+    padding:10px;
+    margin:10px;
+    position :fixed;
+    top:400px;
+    left:500px;
+}
+
+#section3333{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(25, 0, 255);
+    padding:10px;
+    margin:10px;
+}
+
+
+#section11111{
+    height: 50px;
+    width:50px;
+    border:2px solid red;
+    padding:10px;
+    margin:10px;
+}
+
+#section22222{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(42, 162, 104);
+    padding:10px;
+    margin:10px;
+    position :sticky;
+    top:400px;
+    left:500px;
+}
+
+#section33333{
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(25, 0, 255);
+    padding:10px;
+    margin:10px;
+}
+
+#parent-section2{
+    height: 200px;
+    width:500px;
+    border:2px solid rgb(49, 88, 54);
+    padding:10px;
+    margin:10px;
+    overflow: scroll;
+}

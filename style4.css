@@ -1,0 +1,84 @@
+
+.transition_section section {
+    width: 100px;
+    height: 100px;
+    color:white;
+    background: rgb(26, 113, 207);
+    transition: width 2s;
+  }
+
+.transition_section  section:hover {
+width: 300px;
+}
+
+.transition_section  #section1 {transition-timing-function: linear;}
+.transition_section  #section2 {transition-timing-function: ease;}
+.transition_section #section3 {transition-timing-function: ease-in;}
+.transition_section  #section4 {transition-timing-function: ease-out;}
+.transition_section #section5 {transition-timing-function: ease-in-out;}
+/* for defining custom configuration if not stisfied with existing config */
+.transition_section #section6 {transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
+
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+
+  @keyframes backgroundChangeAnimation {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+.animation_section section {
+    width: 100px;
+    height: 100px;
+    color:white;
+    border-radius: 5px;
+    background-color: rgb(111, 0, 255);
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  .animation_section #section1 {animation-timing-function: linear;}
+  .animation_section #section2 {animation-timing-function: ease;}
+  .animation_section #section3 {animation-timing-function: ease-in;}
+  .animation_section #section4 {animation-timing-function: ease-out;}
+  .animation_section #section5 {animation-timing-function: ease-in-out;}
+
+  .animation_section #section7_backgroundchange {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    color:white;
+    animation-name: backgroundChangeAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  .animation_section p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
